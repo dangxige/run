@@ -13,11 +13,13 @@ public class Main{
         xm.go2(l,r);
         xm.go1(l,r);
     }
+//    ƒÊ ±’Î
     public void go1(int l,int r){
         double x=r*Math.cos(l*1.0/r);
         double y=r*Math.sin(l*1.0/r);
         System.out.println(String.format("%.3f",x)+" "+String.format("%.3f",y));
     }
+//    À≥ ±’Î
     public void go2(int l,int r){
         double x=r*Math.cos(l*1.0/r);
         double y=-r*Math.sin(l*1.0/r);
